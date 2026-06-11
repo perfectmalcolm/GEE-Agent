@@ -1,18 +1,16 @@
-﻿# Udara Flood Intelligence Agent
-### AI-Powered Early Warning System for Kenya, Ghana, and Africa
-### Built with Google Agent Development Kit (ADK) and Google Earth Engine
+﻿# **Kenya Flood Intelligence Agent**
+### **AI-Powered Flood Early Warning System for Kenya**
+### **Built with Google ADK, Vertex AI, Model Context Protocol, and Google Earth Engine**
 
 ---
 
 ## 📋 Overview
 
-The **Udara Flood Intelligence Agent** is a multi-agent AI system designed to save lives through early warning of floods in Kenya, and across Africa.
+The **Kenya Flood Intelligence Agent** is a multi-agent AI system designed to support flood early warning in Kenya.
 
-This project transforms a general-purpose Google Earth Engine (GEE) dataset explorer into a **mission-critical Flood Early Warning System (EWS)** - one that monitors rainfall, soil moisture, and satellite imagery to issue community flood alerts in real time.
+The system monitors rainfall, soil moisture, satellite-derived flood extent, elevation, surface water, and population exposure to help generate practical flood-risk insights and community alert messages.
 
-Built on top of **Google's Agent Development Kit (ADK)**, the system demonstrates how agentic AI can move beyond simple chatbots to become **active monitors** of environmental risk - agents that watch the watershed so communities don't have to.
-
-**Mission:** To build equitable, community-centred AI tools that provide life-saving flood early warnings to vulnerable communities in Kenya, Ghana, and Africa - starting with the Tana River Basin and expanding continent-wide.
+**Mission:** To build a Kenya-focused, community-centred flood intelligence system that provides timely, explainable, and actionable early warnings for flood-prone regions such as the Tana River Basin, Athi River Basin, Lake Victoria Basin, and Ewaso Ng'iro Basin.
 
 ---
 
@@ -155,6 +153,7 @@ GOOGLE_API_KEY=your_actual_api_key_here
 
 Never commit this file to GitHub. The `.gitignore` in this repo already excludes it.
 
+
 **Step 6 - Verify the installation**
 
 Run this from the project root:
@@ -272,8 +271,7 @@ Normal ADK cold start behaviour. Send a warmup message first, wait for a respons
 
 ## 🗺️ Roadmap
 
-What this project can become with further development: real GEE integration connecting to live GPM IMERG and SMAP data via the Earth Engine Python API, SMS alerts via Africa's Talking API to reach rural communities on feature phones, WhatsApp integration via Twilio for urban populations, automated Sentinel-1 SAR flood extent computation using the Otsu thresholding algorithm, Swahili and French radio script generation for community broadcast, expansion to full Africa coverage including the Sahel, Mozambique, and South Sudan, a Mesop chat frontend with live map visualisation, and agent-to-agent communication with NASA OpenScapes via the A2A protocol.
-
+Planned improvements include live Google Earth Engine integration, automated GPM IMERG rainfall monitoring, SMAP soil moisture analysis, Sentinel-1 SAR flood extent mapping, Kenya-specific alert thresholds, Swahili and English community alert generation, Vertex AI deployment, MCP-based access to Google Cloud services, and optional dashboard visualisation for Kenyan flood-risk regions.
 ---
 
 ## 📚 Acknowledgements
