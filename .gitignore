@@ -180,3 +180,6 @@ cython_debug/
 
 .DS_Store
 downloads/*
+
+# ADK session storage
+.adk/
